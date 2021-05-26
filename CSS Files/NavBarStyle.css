@@ -5,13 +5,14 @@
 }
 
 body{
-	background-image: linear-gradient(rgb(27, 23, 23), #003, rgb(22, 22, 70),rgb(13, 13, 85));
+    background-image: linear-gradient(rgb(27, 23, 23), #003, rgb(22, 22, 70),rgb(13, 13, 85));
 }
 
 .sticky {
 	position: fixed;
 	top: 0;
-	width: 100%;	
+	width: 100%;
+		
 }
 
 
@@ -49,7 +50,7 @@ button{
 	color: #fff;
 	background-color:rgba(0, 0, 0, 0);
 	height: 35px;
-	width: 120px;
+	width: 140px;
 	border-radius: 10px;
 	transition: background-color 0.4s, border 0.4s;
 }
@@ -59,9 +60,8 @@ button:hover{
 	border: 1pt rgba(255,255,255,0) solid;
 	cursor: pointer;
 }
-.dropdown a{
+button a{
 	text-decoration:none;
-	color:white;
 }
 #textbox{
 	transition: box-shadow 0.4s;
@@ -78,7 +78,7 @@ button:hover{
 .dropdown-content {
 	border-radius: 12pt;
 	display: none;
-	margin-top: 6pt;
+	margin-top: 8pt;
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 160px;
@@ -111,16 +111,6 @@ hr{
 	background-color: rgba(255, 255, 255, 0.3);
 	border: 0pt;
 }
-.arrow {
-	border: solid #ffffff;
-	border-width: 0 3px 3px 0;
-	display: inline-block;
-	padding: 3px;
-}
-.up{
-	transform: rotate(-135deg);
-  	-webkit-transform: rotate(-135deg);
-}
 footer{
    background-color: #111;
    text-align: center;
@@ -131,7 +121,5 @@ footer{
    padding-bottom:8px;
    width:100%;
    font-size: 14px;
-   bottom: 0px;
-   clear: both;
 }
 
